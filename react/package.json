@@ -8,8 +8,12 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "build": "projext build"
+    "build": "rm -rf dist; projext build"
   },
+  "files": [
+    "dist/index.js",
+    "README.md"
+  ],
   "peerDependencies": {
     "react": "^16",
     "react-dom": "^16"

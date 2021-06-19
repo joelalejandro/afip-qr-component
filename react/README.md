@@ -13,7 +13,7 @@ npm install @paperchest/afip-qr-react
 <AfipQR
   code="..."
   className="miAfipQR"
-  title="Consultá nuestro formuario F960" />
+  title="Consultá nuestro formulario F960" />
 ```
 
 El código se extrae del link del QR provisto en la página de AFIP.

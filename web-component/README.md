@@ -14,7 +14,7 @@ Antes de utilizar el componente:
 <afip-qr
   code="..."
   class="miAfipQR"
-  title="Consultá nuestro formuario F960"></afip-qr>
+  title="Consultá nuestro formulario F960"></afip-qr>
 ```
 
 El código se extrae del link del QR provisto en la página de AFIP.
