@@ -1,5 +1,4 @@
 # afip-qr-component
-Renderiza el componente del código QR de AFIP (F960) en distintos frameworks.
 Renders a component with a QR code from AFIP (F960) in different frameworks.
 
 ## Available versions
