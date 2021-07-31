@@ -1,8 +1,9 @@
 {
   "name": "@paperchest/afip-qr-react",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "AFIP QR F960 - React Component",
   "main": "dist/index.js",
+  "types": "types.d.ts",
   "repository": "https://github.com/joelalejandro/afip-qr-component",
   "author": "Joel A. Villarreal Bertoldi",
   "license": "MIT",
@@ -12,11 +13,12 @@
   },
   "files": [
     "dist/index.js",
+    "types.d.ts",
     "README.md"
   ],
   "peerDependencies": {
-    "react": "^16",
-    "react-dom": "^16"
+    "react": "^16 || ^17",
+    "react-dom": "^16 || ^17"
   },
   "babel": {
     "presets": [
@@ -37,6 +39,7 @@
     "babel-loader": "^8.2.2",
     "projext": "^8.0.3",
     "projext-plugin-webpack": "^10.0.1",
-    "projext-plugin-webpack-react": "^6.0.1"
+    "projext-plugin-webpack-react": "^6.0.1",
+    "prop-types": "^15.7.2"
   }
 }
